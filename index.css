@@ -5,10 +5,7 @@ body{
    margin: 0;
 }
 
-header{
-   background-color: #5f29a3;
-   padding: 45px 0;
-}
+/* typography */
 
 h1{
    color: whitesmoke;
@@ -26,6 +23,8 @@ h3{
    margin:0;
 }
 
+/* links */
+
 a{
    color: #ef5839;
    text-decoration: underline dotted; 
@@ -39,15 +38,42 @@ a:active{
    color: #d4b44c;
 }
 
-.container {
-   width: 620px;
-   margin: 0 auto;
+header{
+   background-color: #5f29a3;
+   padding: 45px 0;
 }
 
 section{
    padding: 45px 0;
 }
 
+.section-two{
+   color: whitesmoke;
+   background-color: #5f29a3;
+}
+
+.container{
+   width: 620px;
+   margin: 0 auto;
+}
+
 .main-image{
    width:100%;
 }
+
+.section-two {
+   background-color: #5f29a3;
+   
+   color: whitesmoke;
+}
+
+.img-container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.aux-img {
+   width: 300px;
+   border-radius: 5px;
+}
+
