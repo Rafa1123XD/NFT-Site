@@ -1,3 +1,10 @@
+/* 
+Challenge:
+1. Refactor the CSS to make it DRYer
+   by grouping selectors together where
+   possible.
+*/
+
 body{
    font-size: 16px;
    color: #2b283a;
@@ -30,26 +37,21 @@ a{
    text-decoration: underline dotted; 
 }
 
-a:hover{
+a:hover, a:active{
    color: #d4b44c;
 }
 
-a:active{
-   color: #d4b44c;
-}
-
-header{
+/* layout */
+.section-two, header{
    background-color: #5f29a3;
-   padding: 45px 0;
 }
 
-section{
+header, section, footer {
    padding: 45px 0;
 }
 
 .section-two{
    color: whitesmoke;
-   background-color: #5f29a3;
 }
 
 .container{
@@ -61,19 +63,17 @@ section{
    width:100%;
 }
 
-.section-two {
-   background-color: #5f29a3;
-   
-   color: whitesmoke;
-}
-
-.img-container {
+.section-two-image-container{
    display: flex;
    justify-content: space-between;
 }
 
-.aux-img {
+.feature-image{
    width: 300px;
-   border-radius: 5px;
+   border-radius: 4.6px;
 }
 
+footer{
+   text-align: center;
+   color: #5f29a3;
+}
